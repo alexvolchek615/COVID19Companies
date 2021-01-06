@@ -1,7 +1,7 @@
 # COVID19Companies
 For this project, I wanted to know the effect COVID-19 had on different income individuals in regards to starting a new company. Coming into this project,I believed that medium income individuals (individuals living in middle-class zip codes) will start more companies during COVID-19 than during the period prior to it. In order to test my hypothesis I downloaded the New York State incorporated data for new companies founded in the last 20 years. I then filtered down to the companies created in March-October of 2020 and March-Oct of the year prior (2019). I also used the IRS data demonstrating the average income in every zip code in the United States. I divided the different incomes into seven different standard tax brackets that I found here: https://www.bankrate.com/finance/taxes/tax-brackets.aspx. After this, I figured out how many companies were created in each of the income brackets per year by matching the zip codes in the CEO zip code files to the zip codes in the income bracket files. I then created a graph that would demonstrate the results achieved. While the results demonstrated my hypothesis very clearly it is important to note that while income and founding a company during COVID-19 may be correlated I am not sure due to obsticles in the data. Many founders did not fill out their address which limits the number of companies I could include in the data. Additionally, higher income individuals have access to lawyers that may advise them on incorporation location which could affect the data as well.
 
-After downloading the repository the IRS zipcode data and New York incorporated companies data must be downloaded and replaced in the relevent files in order to make the code run
-Run the makefile in order to make the project run
-Make sure you have awk and python environments available in order to run the code
-The results of this project may be viewed in the results folder
+1) The New York incorporated companies data must be downloaded (found here: https://data.ny.gov/Economic-Development/Active-Corporations-Beginning-1800/n9v6-gdp6/data) and named activecorpstxt.tsv in order to make the code run
+2) Make sure you have awk and python environments available in order to run the code
+3) Run the makefile
+4) The results of this project may be viewed in the results folder
